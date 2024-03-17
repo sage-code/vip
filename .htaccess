@@ -6,7 +6,7 @@ Options -Indexes
 #----------------------------------------------------------------cp:ppd
 #AuthType Basic
 #AuthName "Protected 'vip.sagecode.net'"
-#AuthUserFile "/home/sageco10/.htpasswds/vip.sagecode.net/passwd"
+#AuthUserFile "/home/sageco10/.htpasswds/sage-vip.vercel.app/passwd"
 #Require valid-user
 #----------------------------------------------------------------cp:ppd
 # End section managed by cPanel: Password Protected Directories -cp:ppd
