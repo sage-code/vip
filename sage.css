@@ -419,3 +419,13 @@
   .round {
     border-radius: 50%;
   }
+
+  .contacts {
+     max-width: 80%;
+     margin: auto;
+  }
+
+  .btn-round {
+     border-radius: 10px;
+     width:100%;
+  }
