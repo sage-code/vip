@@ -445,7 +445,7 @@
 .btn-danger:active {
     /* Adjust these colors to your preferred dark theme hover state */
     background-color: #bb2d3b; /* A slightly darker red for danger hover */
-    border-color: #bb2d3b;     /* Match border to background */
+    border-color:#ffffff;     /* Match border to background */
     color: #ffffff;           /* Keep text white or a very light color */
 }
 
@@ -454,7 +454,7 @@
 .btn-outline-secondary:focus,
 .btn-outline-secondary:active {
     background-color: #565e64;
-    border-color: #565e64;
+    border-color: #ffffff;
     color: #ffffff;
 }
 
@@ -462,6 +462,6 @@
 .btn-outline-danger:focus,
 .btn-outline-danger:active {
     background-color: #bb2d3b;
-    border-color: #bb2d3b;
+    border-color: #ffffff;
     color: #ffffff;
 }
