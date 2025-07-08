@@ -465,3 +465,26 @@
     border-color: #ffffff;
     color: #ffffff;
 }
+
+/* Custom CSS to control the width of the link wrapper */
+.image-link-wrapper {
+  /* Set the maximum width for the clickable link area. */
+  /* This will determine the effective displayed width of your image. */
+  /* Choose one of the following options: */
+
+  /* Option 1: Fixed Pixel Max-Width (Often recommended for predictable sizing) */
+  max-width: 400px; /* Adjust this value (e.g., 250px, 400px) to your desired visual size */
+
+  /* Option 2: Percentage Max-Width (Relative to parent's width) */
+  /* If you truly want it to be 40% of the parent container's available width (e.g., screen width) */
+  /* max-width: 40%; */
+
+  /* Option 3: Using viewport units (relative to viewport width) */
+  /* max-width: 25vw; */ /* Example: 25% of the viewport width */
+}
+
+/* Ensure the image fills its container (the <a> tag) up to the max-width */
+.image-link-wrapper img {
+  width: 100%; /* Important: Makes the image fill the controlled width of its parent <a> */
+  height: auto; /* Maintains aspect ratio */
+}
