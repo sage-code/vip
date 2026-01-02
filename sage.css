@@ -240,7 +240,7 @@
   }
   
   .footer-copyright::before {
-    content: "Copyright (c) Sage-Code 2025";
+    content: "Copyright (c) Sage-Code 2026";
     padding-right: 8px;
     color: black; /* Or a color you prefer */
   }
